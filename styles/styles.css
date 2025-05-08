@@ -1,0 +1,235 @@
+/* Reset e estilos globais */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+body {
+    background: linear-gradient(135deg, #2a0a3a, #4a1a6a);
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+}
+
+.main-container {
+    width: 100%;
+    max-width: 1200px;
+    padding: 20px;
+}
+
+.login-container {
+    background-color: rgba(40, 10, 60, 0.8);
+    border-radius: 15px;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.5);
+    overflow: hidden;
+    width: 100%;
+    max-width: 400px;
+    margin: 0 auto;
+    position: relative;
+    border: 1px solid #6a2a8a;
+}
+
+.header {
+    padding: 30px 20px;
+    text-align: center;
+    background: linear-gradient(to right, #4a1a6a, #6a2a8a);
+}
+
+.header h1 {
+    font-size: 28px;
+    margin-bottom: 15px;
+    text-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
+}
+
+.highlight {
+    color: #b36bff;
+}
+
+.decoration {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    margin-top: 15px;
+}
+
+.circle {
+    width: 12px;
+    height: 12px;
+    border-radius: 50%;
+}
+
+.purple {
+    background-color: #8a2be2;
+}
+
+.dark-purple {
+    background-color: #4b0082;
+}
+
+.light-purple {
+    background-color: #b36bff;
+}
+
+.login-form {
+    padding: 25px;
+}
+
+.input-group {
+    position: relative;
+    margin-bottom: 20px;
+}
+
+.input-group i {
+    position: absolute;
+    left: 15px;
+    top: 50%;
+    transform: translateY(-50%);
+    color: #b36bff;
+}
+
+.input-group input {
+    width: 100%;
+    padding: 12px 15px 12px 40px;
+    border-radius: 8px;
+    border: 1px solid #6a2a8a;
+    background-color: rgba(30, 5, 50, 0.7);
+    color: #fff;
+    font-size: 14px;
+    transition: all 0.3s;
+}
+
+.input-group input:focus {
+    outline: none;
+    border-color: #b36bff;
+    box-shadow: 0 0 10px rgba(179, 107, 255, 0.5);
+}
+
+.login-btn {
+    width: 100%;
+    padding: 12px;
+    border: none;
+    border-radius: 8px;
+    background: linear-gradient(to right, #8a2be2, #6a2a8a);
+    color: white;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: all 0.3s;
+    margin-top: 10px;
+}
+
+.login-btn:hover {
+    background: linear-gradient(to right, #9b3bf3, #7b3a9a);
+    transform: translateY(-2px);
+    box-shadow: 0 5px 15px rgba(139, 43, 226, 0.4);
+}
+
+.links {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 15px;
+    font-size: 13px;
+}
+
+.links a {
+    color: #b36bff;
+    text-decoration: none;
+    transition: color 0.3s;
+}
+
+.links a:hover {
+    color: #d9b3ff;
+}
+
+.chat-tab {
+    background-color: rgba(30, 5, 50, 0.9);
+    border-top: 1px solid #6a2a8a;
+    padding: 15px;
+}
+
+.chat-header {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin-bottom: 15px;
+    color: #b36bff;
+    font-weight: bold;
+}
+
+.chat-messages {
+    height: 150px;
+    overflow-y: auto;
+    margin-bottom: 10px;
+    padding: 10px;
+    background-color: rgba(20, 0, 40, 0.7);
+    border-radius: 5px;
+    border: 1px solid #4a1a6a;
+}
+
+.chat-input {
+    display: flex;
+    gap: 5px;
+}
+
+.chat-input input {
+    flex: 1;
+    padding: 8px 12px;
+    border-radius: 5px;
+    border: 1px solid #6a2a8a;
+    background-color: rgba(30, 5, 50, 0.7);
+    color: #fff;
+}
+
+.chat-input button {
+    background-color: #8a2be2;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    padding: 0 15px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.chat-input button:hover {
+    background-color: #9b3bf3;
+}
+
+.footer {
+    text-align: center;
+    padding: 15px;
+    font-size: 12px;
+    color: #b36bff;
+    background-color: rgba(30, 5, 50, 0.9);
+}
+
+.zaan {
+    font-weight: bold;
+    color: #d9b3ff;
+}
+
+/* Responsividade */
+@media (max-width: 768px) {
+    .login-container {
+        max-width: 90%;
+    }
+}
+
+/* Animações */
+@keyframes fadeIn {
+    from { opacity: 0; transform: translateY(20px); }
+    to { opacity: 1; transform: translateY(0); }
+}
+
+.login-container {
+    animation: fadeIn 0.5s ease-out;
+}
+.links {
+    display: flex;
+    justify-content: center; /* Centralizado já que só tem um link agora */
+    margin-top: 15px;
+    font-size: 13px;
+}

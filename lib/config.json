@@ -1,0 +1,36 @@
+{
+    "credentials": [
+        {
+            "username": "never",
+            "password": "1902010@",
+            "role": "administrator"
+        },
+        {
+            "username": "gc",
+            "password": "gc556699?#+",
+            "role": "administrator"
+        },
+        {
+            "username": "V3rlly",
+            "password": "V3rllyEstoraPanela#$@",
+            "role": "administrator"
+        },
+        {
+            "username": "zaan",
+            "password": "zaan@web",
+            "role": "owner"
+        }
+    ],
+    "chatSettings": {
+        "welcomeMessages": [
+            "Bem-vindo ao Zanp - Never Die!",
+            "Sistema em desenvolvimento por Zaan"
+        ],
+        "autoReply": "Obrigado por sua mensagem. Responderemos em breve."
+    },
+    "themeSettings": {
+        "primaryColor": "#8a2be2",
+        "secondaryColor": "#4a1a6a",
+        "accentColor": "#b36bff"
+    }
+}
