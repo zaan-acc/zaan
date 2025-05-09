@@ -1,0 +1,28 @@
+{
+    "ferramentas": {
+        "OSINT": [
+            {
+                "nome": "Maltego",
+                "descricao": "Ferramenta de coleta de dados",
+                "icone": "fas fa-search",
+                "link": "#"
+            }
+        ],
+        "Red Team": [
+            {
+                "nome": "Metasploit",
+                "descricao": "Framework de exploração",
+                "icone": "fas fa-bug",
+                "link": "#"
+            }
+        ],
+        "Test": [
+            {
+            "nome": "hacking",
+            "descricao": "Hacking",
+            "icone": "fas fa-bug",
+            "link": "https://google.com"
+            }
+        ]
+    }
+}
