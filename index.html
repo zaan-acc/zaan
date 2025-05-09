@@ -3,12 +3,13 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Zanp - Never Die | Login</title>
-    <link rel="stylesheet" href="styles/styles.css">
+    <title>Zanp - Never Die</title>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <link rel="stylesheet" href="styles/styles.css">
 </head>
 <body>
-    <div class="main-container">
+    <!-- Tela de Login -->
+    <div class="main-container" id="loginScreen">
         <div class="login-container">
             <div class="header">
                 <h1>Zanp <span class="highlight">- Never Die</span></h1>
@@ -39,7 +40,95 @@
             </div>
         </div>
     </div>
-    
+
+    <!-- Dashboard -->
+    <div class="dashboard-container" id="dashboardScreen">
+        <div class="app-container">
+            <!-- Menu Lateral -->
+            <div class="menu-sidebar">
+                <div class="menu-header">
+                    <h1>Zanp <span class="highlight">- Never Die</span></h1>
+                </div>
+                
+                <div class="menu-items">
+                    <div class="menu-item active" data-section="dashboard">
+                        <i class="fas fa-home"></i>
+                        <span>Menu</span>
+                    </div>
+                    <div class="menu-item" data-section="tools">
+                        <i class="fas fa-tools"></i>
+                        <span>Ferramentas</span>
+                    </div>
+                    <div class="menu-item" data-section="chat">
+                        <i class="fas fa-comment-dots"></i>
+                        <span>Chat</span>
+                    </div>
+                    <div class="menu-item" data-section="files">
+                        <i class="fas fa-folder"></i>
+                        <span>Files</span>
+                    </div>
+                    <div class="menu-item" data-section="discord">
+                        <i class="fab fa-discord"></i>
+                        <span>Discord</span>
+                    </div>
+                </div>
+                
+                <div class="profile-section">
+                    <div class="profile-photo">
+                        <img src="https://via.placeholder.com/80" alt="Profile Photo" id="userPhoto">
+                    </div>
+                    <div class="profile-description" id="userDescription">Bem-vindo</div>
+                    <button class="use-button" id="useButton">Usar</button>
+                </div>
+                
+                <div class="menu-footer">
+                    <div class="credits">by zaan</div>
+                    <div class="menu-options">
+                        <div class="menu-option" id="settingsBtn">
+                            <i class="fas fa-cog"></i>
+                            <span>Configurações</span>
+                        </div>
+                        <div class="menu-option" id="logoutBtn">
+                            <i class="fas fa-sign-out-alt"></i>
+                            <span>Sair</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <!-- Conteúdo Principal -->
+            <div class="main-content">
+                <!-- Dashboard -->
+                <div class="content-section active" id="dashboard-section">
+                    <h2><i class="fas fa-home"></i> Dashboard</h2>
+                    <p>Bem-vindo ao Zanp - Never Die</p>
+                </div>
+                
+                <!-- Ferramentas -->
+                <div class="content-section" id="tools-section"></div>
+                
+                <!-- Chat -->
+                <div class="content-section" id="chat-section">
+                    <h2><i class="fas fa-comment-dots"></i> Chat Zanp</h2>
+                    <div class="chat-container">
+                        <div class="chat-messages" id="chatMessages"></div>
+                        <div class="chat-input">
+                            <input type="text" placeholder="Digite sua mensagem..." id="chatMessageInput">
+                            <button id="sendMessageBtn"><i class="fas fa-paper-plane"></i></button>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Files -->
+                <div class="content-section" id="files-section"></div>
+                
+                <!-- Discord -->
+                <div class="content-section" id="discord-section"></div>
+            </div>
+        </div>
+    </div>
+
+    <script src="scripts/chat.js"></script>
     <script src="scripts/script.js"></script>
 </body>
 </html>
