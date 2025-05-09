@@ -3,29 +3,41 @@
         "OSINT": [
             {
                 "nome": "Maltego",
-                "descricao": "Ferramenta de coleta de dados",
+                "descricao": "Ferramenta de coleta de dados - Windows/Linux",
                 "icone": "fas fa-search",
                 "link": "#"
+            },
+            {
+                "nome": "Sherlock",
+                "descricao": "Busca por nomes de usuário em redes sociais - Linux",
+                "icone": "fas fa-user-secret",
+                "link": "https://github.com/sherlock-project/sherlock"
             }
         ],
         "Red Team": [
             {
                 "nome": "Metasploit",
-                "descricao": "Framework de exploração",
+                "descricao": "Framework de exploração - Windows/Linux",
                 "icone": "fas fa-bug",
                 "link": "#"
+            },
+            {
+                "nome": "Cobalt Strike",
+                "descricao": "Framework para testes de penetração - Windows",
+                "icone": "fas fa-shield-alt",
+                "link": "https://www.cobaltstrike.com/"
             }
         ],
         "RAT para Android": [
             {
                 "nome": "CRAXSRAT 7.6",
-                "descricao": "RAT para Android (4shared)",
+                "descricao": "RAT para Android - Windows",
                 "icone": "fas fa-mobile-alt",
                 "link": "https://www.4shared.com/rar/yEukRYaqku/CraxsRat_76_Cracked.html?sop=true"
             },
             {
                 "nome": "CRAXSRAT (Mega)",
-                "descricao": "RAT para Android (Mega.nz)",
+                "descricao": "RAT para Android - Windows",
                 "icone": "fas fa-mobile-alt",
                 "link": "https://mega.nz/file/ENoQxTRT#7REEKdXb4IJqi0EQDpIZmzjKqJkxyF3rdC2X7-byT5o"
             }
@@ -33,29 +45,75 @@
         "Otimização": [
             {
                 "nome": "Optimizer",
-                "descricao": "Remove telemetria do Windows 10/11",
+                "descricao": "Remove telemetria do Windows - Windows 10/11",
                 "icone": "fas fa-tachometer-alt",
                 "link": "https://github.com/hellzerg/optimizer/releases/download/16.7/Optimizer-16.7.exe"
+            },
+            {
+                "nome": "BleachBit",
+                "descricao": "Limpeza de sistema e privacidade - Windows/Linux",
+                "icone": "fas fa-broom",
+                "link": "https://www.bleachbit.org/"
             }
         ],
         "RATs": [
             {
                 "nome": "TheFatRAT",
-                "descricao": "RAT para Linux (com bypass)",
+                "descricao": "RAT com bypass - Linux",
                 "icone": "fas fa-terminal",
-                "link": "https://github.com/screetsec/TheFatRat"
+                "link": "https://github.com/sherlock-project/sherlock"
             },
             {
                 "nome": "AsyncRAT",
-                "descricao": "RAT para Windows (mais completo)",
+                "descricao": "RAT completo - Windows",
                 "icone": "fas fa-desktop",
                 "link": "https://github.com/NYAN-x-CAT/AsyncRAT-C-Sharp/releases/tag/v0.5.8"
+            },
+            {
+                "nome": "QuasarRAT",
+                "descricao": "RAT open-source - Windows",
+                "icone": "fas fa-laptop-code",
+                "link": "https://github.com/quasar/QuasarRAT"
+            }
+        ],
+        "Ferramentas Úteis": [
+            {
+                "nome": "Wireshark",
+                "descricao": "Analisador de pacotes de rede - Windows/Linux",
+                "icone": "fas fa-network-wired",
+                "link": "https://www.wireshark.org/"
+            },
+            {
+                "nome": "Nmap",
+                "descricao": "Scanner de rede e portas - Windows/Linux",
+                "icone": "fas fa-project-diagram",
+                "link": "https://nmap.org/"
+            },
+            {
+                "nome": "Burp Suite",
+                "descricao": "Plataforma para testes de segurança - Windows/Linux",
+                "icone": "fas fa-shield-virus",
+                "link": "https://portswigger.net/burp"
+            }
+        ],
+        "Desenvolvimento": [
+            {
+                "nome": "Visual Studio Code",
+                "descricao": "Editor de código - Windows/Linux",
+                "icone": "fas fa-code",
+                "link": "https://code.visualstudio.com/"
+            },
+            {
+                "nome": "PyCharm",
+                "descricao": "IDE para Python - Windows/Linux",
+                "icone": "fab fa-python",
+                "link": "https://www.jetbrains.com/pycharm/"
             }
         ],
         "Test": [
             {
                 "nome": "hacking",
-                "descricao": "Hacking",
+                "descricao": "Ferramenta de teste - Windows/Linux",
                 "icone": "fas fa-bug",
                 "link": "https://google.com"
             }
