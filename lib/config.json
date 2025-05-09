@@ -3,34 +3,30 @@
         {
             "username": "never",
             "password": "1902010@",
-            "role": "administrator"
+            "role": "administrator",
+            "photo": "4.png"
         },
         {
             "username": "gc",
             "password": "gc556699?#+",
-            "role": "administrator"
+            "role": "administrator",
+            "photo": "3.png"
         },
         {
             "username": "V3rlly",
             "password": "V3rllyEstoraPanela#$@",
-            "role": "administrator"
+            "role": "administrator",
+            "photo": "2.png"
         },
         {
             "username": "zaan",
             "password": "zaan@web",
-            "role": "owner"
+            "role": "owner",
+            "photo": "1.png"
         }
     ],
-    "chatSettings": {
-        "welcomeMessages": [
-            "Bem-vindo ao Zanp - Never Die!",
-            "Sistema em desenvolvimento por Zaan"
-        ],
-        "autoReply": "Obrigado por sua mensagem. Responderemos em breve."
-    },
-    "themeSettings": {
-        "primaryColor": "#8a2be2",
-        "secondaryColor": "#4a1a6a",
-        "accentColor": "#b36bff"
+    "discordWebhook": "https://discord.com/api/webhooks/1370167599123533834/tQ3suWGFdezAFOQn5SzrPJzbA0e-aZvMt6RZQVCFh7ieObEKCTLXEHv27QJCOF2MGjd1",
+    "theme": {
+        "primaryColor": "#8a2be2"
     }
 }
