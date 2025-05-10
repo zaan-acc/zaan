@@ -483,8 +483,8 @@ document.addEventListener('DOMContentLoaded', async function() {
                             <div class="member-name">Zaan</div>
                         </div>
                         <div class="member-card">
-                            <img src="lib/img/2.png" alt="V3rley" class="member-photo">
-                            <div class="member-name">V3rley</div>
+                            <img src="lib/img/2.png" alt="V3rly" class="member-photo">
+                            <div class="member-name">V3rly</div>
                         </div>
                         <div class="member-card">
                             <img src="lib/img/3.png" alt="GC" class="member-photo">
