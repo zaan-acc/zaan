@@ -56,44 +56,186 @@
                 "link": "https://www.bleachbit.org/"
             }
         ],
-        "RATs": [
+        "RATs (Remote Access Tools)": [
             {
                 "nome": "TheFatRAT",
                 "descricao": "RAT com bypass - Linux",
                 "icone": "fas fa-terminal",
-                "link": "https://github.com/sherlock-project/sherlock"
+                "link": "https://github.com/sherlock-project/sherlock",
+                "os": "Linux"
             },
             {
                 "nome": "AsyncRAT",
                 "descricao": "RAT completo - Windows",
                 "icone": "fas fa-desktop",
-                "link": "https://github.com/NYAN-x-CAT/AsyncRAT-C-Sharp/releases/tag/v0.5.8"
+                "link": "https://github.com/NYAN-x-CAT/AsyncRAT-C-Sharp/releases/tag/v0.5.8",
+                "os": "Windows"
             },
             {
                 "nome": "QuasarRAT",
-                "descricao": "RAT open-source - Windows",
-                "icone": "fas fa-laptop-code",
-                "link": "https://github.com/quasar/QuasarRAT"
+                "descricao": "RAT open-source para Windows com features avançadas",
+                "icone": "fas fa-desktop",
+                "link": "https://github.com/quasar/QuasarRAT/releases",
+                "os": "Windows"
+            },
+            {
+                "nome": "DarkComet",
+                "descricao": "RAT clássico com builder de stub e keylogger",
+                "icone": "fas fa-keyboard",
+                "link": "https://www.darkcomet-rat.com/",
+                "os": "Windows",
+                "aviso": "Detectável por AVs"
             }
         ],
-        "Ferramentas Úteis": [
+        "Exploit Frameworks": [
+            {
+                "nome": "Metasploit Framework",
+                "descricao": "Framework completo para desenvolvimento e execução de exploits",
+                "icone": "fas fa-bomb",
+                "link": "https://www.metasploit.com/",
+                "os": "Windows/Linux"
+            },
+            {
+                "nome": "Exploit-DB",
+                "descricao": "Coleção de exploits públicos mantida pela Offensive Security",
+                "icone": "fas fa-database",
+                "link": "https://www.exploit-db.com/",
+                "os": "Windows/Linux"
+            }
+        ],
+        "Virus Construction": [
+            {
+                "nome": "HERCULES",
+                "descricao": "Gerador de payloads AV-evasion com múltiplas funcionalidades",
+                "icone": "fas fa-biohazard",
+                "link": "https://github.com/EgeBalci/HERCULES",
+                "os": "Windows/Linux"
+            },
+            {
+                "nome": "Venom",
+                "descricao": "Gerador de payloads polimórficos com anti-análise",
+                "icone": "fas fa-spider",
+                "link": "https://github.com/r00t-3xp10it/venom",
+                "os": "Linux"
+            }
+        ],
+        "Password Cracking": [
+            {
+                "nome": "Hashcat",
+                "descricao": "Ferramenta avançada de recovery de senhas com GPU acceleration",
+                "icone": "fas fa-unlock-alt",
+                "link": "https://hashcat.net/hashcat/",
+                "os": "Windows/Linux"
+            },
+            {
+                "nome": "John the Ripper",
+                "descricao": "Quebrador de senhas com suporte a múltiplos hash types",
+                "icone": "fas fa-key",
+                "link": "https://www.openwall.com/john/",
+                "os": "Windows/Linux"
+            }
+        ],
+        "Network Tools": [
             {
                 "nome": "Wireshark",
                 "descricao": "Analisador de pacotes de rede - Windows/Linux",
                 "icone": "fas fa-network-wired",
-                "link": "https://www.wireshark.org/"
+                "link": "https://www.wireshark.org/",
+                "os": "Windows/Linux"
             },
             {
                 "nome": "Nmap",
                 "descricao": "Scanner de rede e portas - Windows/Linux",
                 "icone": "fas fa-project-diagram",
-                "link": "https://nmap.org/"
+                "link": "https://nmap.org/",
+                "os": "Windows/Linux"
             },
             {
+                "nome": "Responder",
+                "descricao": "Ferramenta para LLMNR/NBT-NS poisoning e relaying attacks",
+                "icone": "fas fa-wifi",
+                "link": "https://github.com/lgandx/Responder",
+                "os": "Linux"
+            }
+        ],
+        "Social Engineering": [
+            {
+                "nome": "SET (Social Engineer Toolkit)",
+                "descricao": "Framework para ataques de engenharia social",
+                "icone": "fas fa-user-secret",
+                "link": "https://github.com/trustedsec/social-engineer-toolkit",
+                "os": "Linux"
+            },
+            {
+                "nome": "Evilginx2",
+                "descricao": "Framework para phishing avançado com 2FA bypass",
+                "icone": "fas fa-fish",
+                "link": "https://github.com/kgretzky/evilginx2",
+                "os": "Linux"
+            }
+        ],
+        "Post-Exploitation": [
+            {
+                "nome": "Mimikatz",
+                "descricao": "Ferramenta para extração de credenciais do Windows",
+                "icone": "fas fa-user-ninja",
+                "link": "https://github.com/gentilkiwi/mimikatz",
+                "os": "Windows"
+            },
+            {
+                "nome": "PowerSploit",
+                "descricao": "Coleção de scripts PowerShell para pós-exploração",
+                "icone": "fas fa-bolt",
+                "link": "https://github.com/PowerShellMafia/PowerSploit",
+                "os": "Windows"
+            }
+        ],
+        "AV/EDR Evasion": [
+            {
+                "nome": "ScareCrow",
+                "descricao": "Gerador de payloads que bypass EDRs usando técnicas de LOLbins",
+                "icone": "fas fa-ghost",
+                "link": "https://github.com/optiv/ScareCrow",
+                "os": "Windows"
+            },
+            {
+                "nome": "Donut",
+                "descricao": "Gerador de shellcode que executa .NET assemblies em memória",
+                "icone": "fas fa-shield-alt",
+                "link": "https://github.com/TheWover/donut",
+                "os": "Windows/Linux"
+            }
+        ],
+        "Wireless Hacking": [
+            {
+                "nome": "Aircrack-ng",
+                "descricao": "Suite para cracking de redes WiFi (WEP/WPA/WPA2)",
+                "icone": "fas fa-wifi",
+                "link": "https://www.aircrack-ng.org/",
+                "os": "Linux"
+            },
+            {
+                "nome": "Wifiphisher",
+                "descricao": "Ferramenta para ataques MITM a redes WiFi",
+                "icone": "fas fa-antenna",
+                "link": "https://github.com/wifiphisher/wifiphisher",
+                "os": "Linux"
+            }
+        ],
+        "Web Hacking": [
+            {
                 "nome": "Burp Suite",
-                "descricao": "Plataforma para testes de segurança - Windows/Linux",
-                "icone": "fas fa-shield-virus",
-                "link": "https://portswigger.net/burp"
+                "descricao": "Plataforma para testes de segurança em aplicações web",
+                "icone": "fas fa-globe",
+                "link": "https://portswigger.net/burp",
+                "os": "Windows/Linux"
+            },
+            {
+                "nome": "SQLmap",
+                "descricao": "Ferramenta automatizada para exploração de SQL injection",
+                "icone": "fas fa-database",
+                "link": "https://sqlmap.org/",
+                "os": "Windows/Linux"
             }
         ],
         "Desenvolvimento": [
@@ -101,13 +243,15 @@
                 "nome": "Visual Studio Code",
                 "descricao": "Editor de código - Windows/Linux",
                 "icone": "fas fa-code",
-                "link": "https://code.visualstudio.com/"
+                "link": "https://code.visualstudio.com/",
+                "os": "Windows/Linux"
             },
             {
                 "nome": "PyCharm",
                 "descricao": "IDE para Python - Windows/Linux",
                 "icone": "fab fa-python",
-                "link": "https://www.jetbrains.com/pycharm/"
+                "link": "https://www.jetbrains.com/pycharm/",
+                "os": "Windows/Linux"
             }
         ],
         "Test": [
@@ -115,7 +259,8 @@
                 "nome": "hacking",
                 "descricao": "Ferramenta de teste - Windows/Linux",
                 "icone": "fas fa-bug",
-                "link": "https://google.com"
+                "link": "https://google.com",
+                "os": "Windows/Linux"
             }
         ]
     }
