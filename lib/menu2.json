@@ -1,0 +1,75 @@
+{
+    "videos": {
+        "Tutoriais Avançados": [
+            {
+                "nome": "Spy any computer on Kali Linux",
+                "descricao": "Monitoramento avançado com Kali - Linux",
+                "icone": "fas fa-eye",
+                "link": "https://www.youtube.com/embed/mCM3gQhGweA",
+                "duracao": "10:45"
+            },
+            {
+                "nome": "How Hackers make Undetectable Malware",
+                "descricao": "Técnicas de criação de malware stealth - Windows/Linux",
+                "icone": "fas fa-shield-virus",
+                "link": "https://www.youtube.com/embed/XSa1B1Hzaww",
+                "duracao": "15:22"
+            },
+            {
+                "nome": "Convert .EXE to IMAGE!",
+                "descricao": "Ocultando executáveis em imagens - Windows",
+                "icone": "fas fa-file-image",
+                "link": "https://www.youtube.com/embed/cXEkSQl9wmw",
+                "duracao": "8:37"
+            }
+        ],
+        "Red Team Operations": [
+            {
+                "nome": "Reverse shells with netcat",
+                "descricao": "Acesso remoto a targets - Windows/Linux",
+                "icone": "fas fa-network-wired",
+                "link": "https://www.youtube.com/embed/bXCeFPNWjsM",
+                "duracao": "18:15"
+            },
+            {
+                "nome": "Bypass Windows Defender",
+                "descricao": "Técnicas de evasão - Windows",
+                "icone": "fas fa-shield-alt",
+                "link": "https://www.youtube.com/embed/HPLLhlnrZHs",
+                "duracao": "12:50"
+            },
+            {
+                "nome": "Bypass Windows Defender with JScript",
+                "descricao": "Método alternativo de evasão - Windows",
+                "icone": "fab fa-js",
+                "link": "https://www.youtube.com/embed/joMVMoJgAjw",
+                "duracao": "14:03"
+            }
+        ],
+        "Ferramentas Essenciais": [
+            {
+                "nome": "Top 10 Hacking Tools",
+                "descricao": "Melhores ferramentas para Windows 10/11",
+                "icone": "fas fa-tools",
+                "link": "https://www.youtube.com/embed/WoZnpOU2zkI",
+                "duracao": "25:40"
+            }
+        ],
+        "Técnicas de Evasão": [
+            {
+                "nome": "Bypass Antivirus",
+                "descricao": "Compilação de métodos - Windows/Linux",
+                "icone": "fas fa-user-secret",
+                "link": "https://www.youtube.com/embed/HPLLhlnrZHs",
+                "duracao": "12:50"
+            },
+            {
+                "nome": "JScript Evasion",
+                "descricao": "Técnica avançada - Windows",
+                "icone": "fas fa-code",
+                "link": "https://www.youtube.com/embed/joMVMoJgAjw",
+                "duracao": "14:03"
+            }
+        ]
+    }
+}
