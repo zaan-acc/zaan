@@ -250,6 +250,7 @@ body {
     width: 100%;
     height: 100%;
     object-fit: cover;
+    border-radius: 50%;
 }
 
 .profile-description {
@@ -327,6 +328,131 @@ body {
     display: flex;
     align-items: center;
     gap: 10px;
+}
+
+/* Seção de Vídeos (Nova) */
+.videos-container {
+    margin-top: 20px;
+}
+
+.video-category {
+    margin-bottom: 30px;
+}
+
+.video-category h3 {
+    color: #b36bff;
+    margin-bottom: 15px;
+    padding-bottom: 5px;
+    border-bottom: 1px solid #6a2a8a;
+}
+
+.videos-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    gap: 20px;
+}
+
+.video-card {
+    background-color: rgba(40, 10, 60, 0.8);
+    border-radius: 10px;
+    overflow: hidden;
+    border: 1px solid #6a2a8a;
+    transition: all 0.3s;
+}
+
+.video-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 5px 15px rgba(179, 107, 255, 0.3);
+}
+
+.video-wrapper {
+    position: relative;
+    padding-bottom: 56.25%; /* 16:9 Aspect Ratio */
+    height: 0;
+    overflow: hidden;
+}
+
+.video-wrapper iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    border: none;
+}
+
+.video-info {
+    padding: 15px;
+}
+
+.video-info h4 {
+    color: #fff;
+    margin-bottom: 8px;
+}
+
+.video-info p {
+    color: #d9b3ff;
+    font-size: 14px;
+    margin-bottom: 10px;
+}
+
+.video-meta {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: #b36bff;
+    font-size: 13px;
+}
+
+.video-meta a {
+    color: #b36bff;
+    transition: color 0.3s;
+}
+
+.video-meta a:hover {
+    color: #fff;
+}
+
+/* Barra de pesquisa de vídeos */
+.search-box {
+    position: relative;
+    margin-bottom: 20px;
+}
+
+.search-box input {
+    width: 100%;
+    max-width: 500px;
+    padding: 12px 20px 12px 40px;
+    border-radius: 25px;
+    border: 1px solid #6a2a8a;
+    background-color: rgba(30, 5, 50, 0.9);
+    color: #fff;
+    font-size: 14px;
+    transition: all 0.3s;
+    outline: none;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='16' height='16' fill='%23b36bff' viewBox='0 0 16 16'%3E%3Cpath d='M11.742 10.344a6.5 6.5 0 1 0-1.397 1.398h-.001c.03.04.062.078.098.115l3.85 3.85a1 1 0 0 0 1.415-1.414l-3.85-3.85a1.007 1.007 0 0 0-.115-.1zM12 6.5a5.5 5.5 0 1 1-11 0 5.5 5.5 0 0 1 11 0z'/%3E%3C/svg%3E");
+    background-repeat: no-repeat;
+    background-position: 15px center;
+    background-size: 16px;
+}
+
+.search-box input:focus {
+    border-color: #b36bff;
+    box-shadow: 0 0 15px rgba(179, 107, 255, 0.6);
+}
+
+.search-box input::placeholder {
+    color: #b36bff;
+    opacity: 0.7;
+}
+
+.search-box .fa-search {
+    position: absolute;
+    left: 15px;
+    top: 50%;
+    transform: translateY(-50%);
+    color: #b36bff;
 }
 
 /* Chat */
@@ -412,39 +538,6 @@ body {
 /* Ferramentas */
 .tools-container {
     margin-top: 20px;
-}
-
-.search-box {
-    display: flex;
-    justify-content: flex-end;
-    margin-bottom: 20px;
-}
-
-.search-box input {
-    width: 300px;
-    padding: 12px 20px 12px 40px;
-    border-radius: 25px;
-    border: 1px solid #6a2a8a;
-    background-color: rgba(30, 5, 50, 0.9);
-    color: #fff;
-    font-size: 14px;
-    transition: all 0.3s;
-    outline: none;
-    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
-    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='16' height='16' fill='%23b36bff' viewBox='0 0 16 16'%3E%3Cpath d='M11.742 10.344a6.5 6.5 0 1 0-1.397 1.398h-.001c.03.04.062.078.098.115l3.85 3.85a1 1 0 0 0 1.415-1.414l-3.85-3.85a1.007 1.007 0 0 0-.115-.1zM12 6.5a5.5 5.5 0 1 1-11 0 5.5 5.5 0 0 1 11 0z'/%3E%3C/svg%3E");
-    background-repeat: no-repeat;
-    background-position: 15px center;
-    background-size: 16px 16px;
-}
-
-.search-box input:focus {
-    border-color: #b36bff;
-    box-shadow: 0 0 15px rgba(179, 107, 255, 0.6);
-}
-
-.search-box input::placeholder {
-    color: #b36bff;
-    opacity: 0.7;
 }
 
 .tool-category {
@@ -771,24 +864,12 @@ body {
         height: 120px;
     }
     
-    .tools-grid {
+    .tools-grid, .videos-grid {
         grid-template-columns: 1fr;
     }
-    .profile-photo img {
+    
+    .video-card, .tool-card {
         width: 100%;
-        height: 100%;
-        object-fit: cover;
-        border-radius: 50%;
     }
     
-    .member-photo {
-        width: 150px;
-        height: 150px;
-        border-radius: 50%;
-        object-fit: cover;
-        border: 3px solid #b36bff;
-        margin: 0 auto 20px;
-        display: block;
-        box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
-    }
 }
