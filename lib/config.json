@@ -24,6 +24,24 @@
             "role": "owner",
             "photo": "1.png"
         }
+        {
+            "username": "hood",
+            "password": "hooddu7@",
+            "role": "administrator",
+            "photo": "5.png"
+        }
+        {
+            "username": "padre",
+            "password": "padre7@",
+            "role": "administrator",
+            "photo": "6.png"
+        }
+        {
+            "username": "akira",
+            "password": "akira02@",
+            "role": "administrator",
+            "photo": "7.png"
+        }
     ],
     "discordWebhook": "https://discord.com/api/webhooks/1370167599123533834/tQ3suWGFdezAFOQn5SzrPJzbA0e-aZvMt6RZQVCFh7ieObEKCTLXEHv27QJCOF2MGjd1",
     "theme": {
