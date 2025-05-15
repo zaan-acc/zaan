@@ -494,6 +494,18 @@ document.addEventListener('DOMContentLoaded', async function() {
                             <img src="lib/img/4.png" alt="x64neverdie" class="member-photo">
                             <div class="member-name">x64neverdie</div>
                         </div>
+                        <div class="member-card">
+                            <img src="lib/img/5.png" alt="Hood" class="member-photo">
+                            <div class="member-name">Hood</div>
+                        </div>
+                        <div class="member-card">
+                            <img src="lib/img/7.png" alt="Akira" class="member-photo">
+                            <div class="member-name">Akira</div>
+                        </div>
+                        <div class="member-card">
+                            <img src="lib/img/8.png" alt="Padre" class="member-photo">
+                            <div class="member-name">Padre</div>
+                        </div>
                     </div>
                 </div>
             `;
