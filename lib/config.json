@@ -23,19 +23,19 @@
             "password": "zaan@web",
             "role": "owner",
             "photo": "1.png"
-        }
+        },
         {
             "username": "hood",
             "password": "hooddu7@",
             "role": "administrator",
             "photo": "5.png"
-        }
+        },
         {
             "username": "padre",
             "password": "padre7@",
             "role": "administrator",
             "photo": "6.png"
-        }
+        },
         {
             "username": "akira",
             "password": "akira02@",
